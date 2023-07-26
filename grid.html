@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material Icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font-awesome cdnjs-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a3933cd32d.js" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Grid</title>
+</head>
+<body>
+    <!-- Grid -->
+    <h1 class="center">Grid</h1>
+    <div class="divider"></div>
+    <br><br>
+    <div class="container">
+        <p>We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an ordered, easy fashion.</p>
+        <!-- Demo -->
+        <p class="flow-text">Demo</p>
+        <p>Try the button below to see what the page looks like without containers.</p>
+        <p>To add a container just put your content inside a <'div'> tag with a container class. Here's an example of how your page might be set up.</p>
+        
+        <!-- Introduction -->
+        <br><br>
+        <h1>Introduction</h1>
+        <p>Take a look at this section to quickly understand how the grid works!<p>
+        <p class="flow-text">12 Columns</p>
+        <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have an equal width.</p>
+        <div class="row">
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+            <div class="col s1">
+                <div class="card-panel deep-orange"></div>
+            </div>
+        </div>
+        <p>To get a feel of how the grid is used in HTML, take a look at the code below which will produce a similar result to the one above.</p>
+        <p>Note: For now, just know that the s1 stands for small-1 which in plain English means "1 column on small screens".</p>
+        <p class="flow-text">Columns live inside Rows</p>
+        <p>Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>
+        <br><br>
+        <!-- Offsets -->
+        <h3>Offsets</h3>
+        <p>To offset, simply add offset-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to offset by.</p>
+        <div class="row">
+            <div class="col s12">
+                <div class="card-panel deep-orange white-text">
+                    <span class="flow-text white-text">This div is 12-columns wide on all screen sizes</span>
+                </div>
+            </div>
+            <div class="col s6 offset-s6">
+                <div class="card-panel deep-orange white-text">
+                    <span class="flow-text white-text">6-columns (offset-by-6)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Push and Pull -->
+        <br><br>
+        <h3>Push and Pull</h3>
+        <p>You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.</p>
+        <div class="row">
+            <div class="col s7 push-s5">
+                <div class="card-panel deep-orange white-text">
+                    <span class="flow-text white-text">This div is 7-columns wide on pushed to the right by 5-columns.</span>
+                </div>
+            </div>
+            <div class="col s5 pull-s7 deep-orange white-text">
+                <span class="flow-text white-text">5-columns wide pulled to the left by 7-columns.</span>
+            </div>
+        </div>
+        <br><br>
+        <!-- Creating Layouts -->
+        <h3>Creating Layouts</h3>
+        <p>Here we will show you how to create some commonly used layouts with our grid system. Hopefully these will get you more comfortable with laying out elements. To keep these demos simple, the ones here will not be responsive.</p>
+
+
+
+
+    <div style="height: 1000px"></div>
+
+
+
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
